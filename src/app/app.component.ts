@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'edwin Ingresos Pasivos';
+  miPropiedad = "Yo Edwin Soy Ingresos Pasivos :)";
+  prop2: string = "Grass Sintético :)";
 }
