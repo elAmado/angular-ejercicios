@@ -2,7 +2,7 @@
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 15em;
+  width: 25em;
  }
 
  .ejercicios li {
@@ -22,13 +22,13 @@
    left: .1em;
  }
 
-.ejercicios li.ejercicioSele {
-  background-color: #CFD8DC;
+.ejercicios li.prodServSele {
+  background-color: #2d8fb9;
   color: white;
 }
 
-.ejercicios li.ejercicioSele:hover{
-  background-color: #305d63;
+.ejercicios li.prodServSele:hover{
+  background-color: #BBD8DC;
   color: white;
 }
 
