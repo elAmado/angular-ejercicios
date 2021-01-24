@@ -13,8 +13,12 @@ export class EjerciciosComponent implements OnInit {
 
   constructor(private ejercicioService: EjercicioService) {}
 
-  ngOnInit(): void {
+  getEjerxs(): void {
     this.listaDeEjercicios = this.ejercicioService.obtenerGetEjercicios();
+  }
+
+  ngOnInit(): void {
+    this.getEjerxs();
   }
 
   clickEnUnEjercicio(ejerClickeado: Ejercicio): void {
