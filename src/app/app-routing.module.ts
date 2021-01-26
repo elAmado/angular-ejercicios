@@ -4,7 +4,7 @@ import { EjerciciosComponent } from './mis_componentes/ejercicios/ejercicios.com
 import { EjercicioDetDetComponent } from "./mis_componentes/ejercicio-det-det/ejercicio-det-det.component";
 
 const routes: Routes = [
-  { path: 'ejercicios', component: EjerciciosComponent },
+  { path: 'ejercicios', component: EjerciciosComponent }
   // { path: 'ejerciciosx', component: EjercicioDetDetComponent }
 ];
 
