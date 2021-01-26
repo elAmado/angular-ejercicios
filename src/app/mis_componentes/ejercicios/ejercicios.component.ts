@@ -17,8 +17,11 @@ export class EjerciciosComponent implements OnInit {
   //   this.listaDeEjercicios = this.ejercicioService.obtenerGetEjercicios();
   // }
 
-  getEjerciciox(): void{
-    this.ejercicioService.obtenerGetEjercicios().subscribe(ejercicios => this.listaDeEjercicios=ejercicios)
+  getEjerciciox(): void {
+    this.ejercicioService.obtenerGetEjercicios()
+    .subscribe((ejercicios) => {
+      this.listaDeEjercicios = ejercicios;
+    });
   }
 
   ngOnInit(): void {

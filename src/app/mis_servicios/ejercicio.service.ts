@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from "rxjs";
+import { Observable, of } from 'rxjs';
 import { Ejercicio } from '../varios/ejercicio';
 import { ejerciciosArray } from '../varios/collection-ejercicios';
 
@@ -13,7 +13,7 @@ export class EjercicioService {
   //   return ejerciciosArray;
   // }
 
-  obtenerGetEjercicios(): Observable<Ejercicio[]>{
+  obtenerGetEjercicios(): Observable<Ejercicio[]> {
     return of(ejerciciosArray);
   }
 }
